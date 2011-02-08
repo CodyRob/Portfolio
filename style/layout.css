@@ -370,6 +370,13 @@ header {
 
 				#main div.row section#featured ul.work li img,
 				#main div.row section#other ul.work li img {
+					background-clip: padding-box;
+					border-radius: 3px;
+						-webkit-border-radius: 3px;
+						-moz-border-radius: 3px;
+					box-shadow: inset 0 0 5px #000;
+						-webkit-box-shadow: inset 0 0 5px #000;
+						-moz-box-shadow: inset 0 0 5px #000;
 					height: 140px;
 					margin: 5px 4px 4px;
 					width: 190px;
